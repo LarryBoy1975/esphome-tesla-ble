@@ -915,6 +915,10 @@ void TeslaClimate::control(const climate::ClimateCall &call) {
             parent_->set_climate_keeper(3);
         }
     }
+
+
+
+
     
     const char* fan = call.get_custom_fan_mode().c_str();
     if (fan != nullptr) {
