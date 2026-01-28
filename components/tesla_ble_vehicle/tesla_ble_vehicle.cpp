@@ -895,6 +895,7 @@ void TeslaClimate::control(const climate::ClimateCall &call) {
         }
     }
     
+  
     // Handle custom presets
     const char* custom = call.get_custom_preset().c_str();
     if (custom != nullptr) {
