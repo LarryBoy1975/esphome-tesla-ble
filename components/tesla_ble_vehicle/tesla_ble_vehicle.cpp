@@ -915,7 +915,6 @@ void TeslaClimate::control(const climate::ClimateCall &call) {
         }
     }
     
-    // Handle custom fan modes
     const char* fan = call.get_custom_fan_mode().c_str();
     if (fan != nullptr) {
         if (strcmp(fan, "Normal") == 0) {
