@@ -3,4 +3,4 @@
 # override external_components to use the dashboard version
 #external_components: !include packages/external_components.dashboard.yml
 - components: [tesla_ble_vehicle, tesla_ble_listener]
-  source: github://LarryBoy1975/esphome-tesla-ble/components@main
+  #source: github://LarryBoy1975/esphome-tesla-ble/components@main
